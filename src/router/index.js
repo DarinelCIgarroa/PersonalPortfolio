@@ -1,5 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+
+const Home = () => import(/* webpackChunkName: "Home" */ '@/views/Home.vue')
+const About = () => import(/* webpackChunkName: "About" */ '@/views/About.vue')
+const Resume = () => import(/* webpackChunkName: "Resume" */ '@/views/Resume.vue')
+const Portfolio = () => import(/* webpackChunkName: "Portfolio" */ '@/views/Portfolio.vue')
+const Contact = () => import(/* webpackChunkName: "Contact" */ '@/views/Contact.vue')
+const NotFound = () => import(/* webpackChunkName: "Contact" */ '@/views/NotFound.vue')
 
 const routes = [
   {
@@ -8,16 +14,35 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
+    path: '/Sobre-Mi',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: About
+  },
+  {
+    path: '/Curriculum',
+    name: 'Cv',
+    component: Resume
+  },
+  {
+    path: '/Portafolio',
+    name: 'Portafolio',
+    component: Portfolio
+  },
+  {
+    path: '/Contacto',
+    name: 'Contact',
+    component: Contact
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: NotFound
+    
   }
 ]
 
 const router = createRouter({
+  
   history: createWebHistory(process.env.BASE_URL),
   routes
 })

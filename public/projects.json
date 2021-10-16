@@ -1,0 +1,154 @@
+[
+    {
+        "id":"01",
+        "titulo": "Carrito VueJS YT",
+        "tecnologia":"VueJS",
+        "imagen" : "https://khamsat.hsoubcdn.com/images/services/1239568/635caa3ee4741de23887a63c9ca58dbf.jpg",
+        "link": "https://github.com/DarinelCIgarroa/carrito-vuejs-yt",
+        "tipo": "Curso"
+    },
+    {
+        "id":"02",
+        "titulo": "Empresa Personal",
+        "tecnologia":"PHP",
+        "imagen" : "https://miro.medium.com/max/1838/1*wMGA_kWoAzmDdBAK21p9ww.jpeg",
+        "link": "https://github.com/DarinelCIgarroa/underrtaking_personal",
+        "tipo": "Propio"
+    },
+    {
+        "id":"03",
+        "titulo": "Curso JavaScript",
+        "tecnologia":"JavaScript",
+        "imagen" : "https://midu.dev/images/wallpapers/javascript-grande-horizontal-4k.png",
+        "link": "https://github.com/DarinelCIgarroa/curso-js",
+        "tipo": "Curso"
+    },
+    {
+        "id":"04",
+        "titulo": "Master JavaScript",
+        "tecnologia":"JavaScript",
+        "imagen" : "https://midu.dev/images/wallpapers/javascript-grande-horizontal-4k.png",
+        "link": "https://github.com/DarinelCIgarroa/Master-JavaScript",
+        "tipo": "Curso"
+    },
+    {
+        "id":"05",
+        "titulo": "Curso VSC",
+        "tecnologia":"Otros",
+        "imagen" : "https://images8.alphacoders.com/985/thumb-350-985804.png",
+        "link": "https://github.com/DarinelCIgarroa/curso-VSC",
+        "tipo": "Curso"
+    },
+    {
+        "id":"06",
+        "titulo": "Curso ECMAScript 2021",
+        "tecnologia":"JavaScript",
+        "imagen" : "https://midu.dev/images/wallpapers/javascript-grande-horizontal-4k.png",
+        "link": "https://github.com/DarinelCIgarroa/curso-ECMAScript2021",
+        "tipo": "Curso"
+    },
+    {
+        "id":"07",
+        "titulo": "API Pensamientos",
+        "tecnologia":"PHP",
+        "imagen" : "https://miro.medium.com/max/1838/1*wMGA_kWoAzmDdBAK21p9ww.jpeg",
+        "link": "https://github.com/DarinelCIgarroa/api-pensamientos",
+        "tipo": "Propio"
+    },
+    {
+        "id":"08",
+        "titulo": "Sistema Conalep",
+        "tecnologia":"PHP",
+        "imagen" : "https://miro.medium.com/max/1838/1*wMGA_kWoAzmDdBAK21p9ww.jpeg",
+        "link": "https://github.com/DarinelCIgarroa/sistema-conalep022",
+        "tipo": "Propio"
+    },
+    {
+        "id":"09",
+        "titulo": "Rick and Morty",
+        "tecnologia":"VueJS",
+        "imagen" : "https://khamsat.hsoubcdn.com/images/services/1239568/635caa3ee4741de23887a63c9ca58dbf.jpg",
+        "link": "https://github.com/DarinelCIgarroa/rick-and-morty",
+        "tipo": "Propio"
+    },
+    {
+        "id":"10",
+        "titulo": "Curso VueJS 2021",
+        "tecnologia":"VueJS",
+        "imagen" : "https://khamsat.hsoubcdn.com/images/services/1239568/635caa3ee4741de23887a63c9ca58dbf.jpg",
+        "link": "https://github.com/DarinelCIgarroa/Curso-vuejs-2021",
+        "tipo": "curso"
+    },
+    {
+        "id":"11",
+        "titulo": "Carrito VueJS",
+        "tecnologia":"VueJS",
+        "imagen" : "https://khamsat.hsoubcdn.com/images/services/1239568/635caa3ee4741de23887a63c9ca58dbf.jpg",
+        "link": "https://github.com/DarinelCIgarroa/carritoVueJS",
+        "tipo": "curso"
+    },
+    {
+        "id":"12",
+        "titulo": "Gestión de notas",
+        "tecnologia":"VueJS",
+        "imagen" : "https://khamsat.hsoubcdn.com/images/services/1239568/635caa3ee4741de23887a63c9ca58dbf.jpg",
+        "link": "https://github.com/DarinelCIgarroa/Gestion-notas-vuejs",
+        "tipo": "curso"
+    },
+    {
+        "id":"13",
+        "titulo": "Sistema de blog",
+        "tecnologia":"PHP",
+        "imagen" : "https://miro.medium.com/max/1838/1*wMGA_kWoAzmDdBAK21p9ww.jpeg",
+        "link": "https://github.com/DarinelCIgarroa/blogframework",
+        "tipo": "Propio"
+    },
+    {
+        "id":"14",
+        "titulo": "Articulos",
+        "tecnologia":"Hibrido",
+        "imagen" : "https://wallpaperaccess.com/full/4584371.png",
+        "link": "https://github.com/DarinelCIgarroa/articulos-vuejs",
+        "tipo": "Curso"
+    },
+    {
+        "id":"15",
+        "titulo": "Home Ruinas JavaScript",
+        "tecnologia":"JavaScript",
+        "imagen" : "https://midu.dev/images/wallpapers/javascript-grande-horizontal-4k.png",
+        "link": "https://github.com/DarinelCIgarroa/Home-con-JS",
+        "tipo": "Propio"
+    },
+    {
+        "id":"16",
+        "titulo": "Curso SQL",
+        "tecnologia":"Otros",
+        "imagen" : "https://besthqwallpapers.com/Uploads/21-11-2020/146220/thumb-database-neon-icon-4k-blue-background-neon-symbols-database.jpg",
+        "link": "https://github.com/DarinelCIgarroa/curso-sql",
+        "tipo": "Propio"
+    },
+    {
+        "id":"17",
+        "titulo": "Portafolio",
+        "tecnologia":"PHP",
+        "imagen" : "https://miro.medium.com/max/1838/1*wMGA_kWoAzmDdBAK21p9ww.jpeg",
+        "link": "https://github.com/DarinelCIgarroa/curso-aprendible",
+        "tipo": "Curso"
+    },
+    {
+        "id":"18",
+        "titulo": "Instagram Mini",
+        "tecnologia":"PHP",
+        "imagen" : "https://miro.medium.com/max/1838/1*wMGA_kWoAzmDdBAK21p9ww.jpeg",
+        "link": "https://github.com/DarinelCIgarroa/Instagram-mini",
+        "tipo": "Propio"
+    },
+    {
+        "id":"19",
+        "titulo": "Web Pensamientos",
+        "tecnologia":"Hibrido",
+        "imagen" : "https://wallpaperaccess.com/full/4584371.png",
+        "link": "https://github.com/DarinelCIgarroa/Crub-Vuejs-y-Laravel",
+        "tipo": "Propio"
+    }
+]
