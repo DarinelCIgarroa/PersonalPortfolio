@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="download-cv">
-        <div class="btn"><a download="cv" href="@/assets/cv.pdf">Descargar CV</a></div>
+        <div class="btn"><a download="cv" href="../../public/cv.pdf">Descargar CV</a></div>
       </div>
     </div>
   </section>
