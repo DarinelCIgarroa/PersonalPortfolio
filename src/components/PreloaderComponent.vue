@@ -1,7 +1,7 @@
 <template>
   <teleport to="body">
     <div class="content" v-show="!isloaded">
-      <div v-show="isloaded" class="loader"></div>
+      <div class="loader"></div>
       <div class="charging">
         <h1>
           <span class="point">C</span>
