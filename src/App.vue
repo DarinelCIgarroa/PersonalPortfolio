@@ -5,6 +5,7 @@
       <source src="@/assets/video/humo-opt.mp4" type="video/mp4" />
     </video>
   </div>
+
   <header id="header">
     <div class="container">
       <h1 @click="navigationHome">
@@ -76,6 +77,7 @@
       </nav>
     </div>
   </header>
+
   <router-view v-slot="{ Component }">
     <transition name="fade" mode="out-in">
       <component :is="Component" />
@@ -84,14 +86,13 @@
 </template>
 
 <script>
-import PreloaderComponent from "@/components/PreloaderComponent"
+import PreloaderComponent from "@/components/PreloaderComponent";
 import HeaderNavigation from "@/composables/HeaderNavigation";
 import { onMounted } from "vue";
 
-
 export default {
-  components:{
-    PreloaderComponent
+  components: {
+    PreloaderComponent,
   },
   setup() {
     const { nav_toggler, navigationHome, navigation } = HeaderNavigation();
@@ -117,10 +118,9 @@ export default {
 
 html,
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff !important;
-  margin: 0 !important;
   position: relative;
   background: transparent;
 }
@@ -145,7 +145,6 @@ body::before {
   left: 0;
   right: 0;
   top: 0;
-  margin: 0 !important;
   height: 100vh;
   overflow: hidden;
   z-index: -1;
@@ -259,6 +258,20 @@ h6 {
 
 #header .social-links a:hover {
   background: #18d26e;
+}
+
+@media screen and (max-width: 1024px) {
+  #header h1 {
+    font-size: 35px;
+  }
+
+  #header .container {
+    margin: 0px 70px;
+  }
+
+  #header.header_top h1 {
+    font-size: 25px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
