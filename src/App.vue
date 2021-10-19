@@ -65,15 +65,7 @@
             >
           </li>
         </ul>
-        <i
-          @click="nav_toggler"
-          class="
-            bi
-            mobile-nav-toggle
-            bi-list
-            animate__animated animate__heartBeat animate__delay-3s
-          "
-        ></i>
+        <i @click="nav_toggler" class="bi mobile-nav-toggle bi-list"></i>
       </nav>
     </div>
   </header>
@@ -103,6 +95,7 @@ export default {
         header.classList.add("header_top");
       }
     });
+
     return {
       navigation,
       navigationHome,
@@ -118,7 +111,7 @@ export default {
 
 html,
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: #040404;
   color: #fff !important;
   position: relative;
@@ -297,7 +290,6 @@ h6 {
   #header .container {
     margin: 0px 0px;
   }
-
   #header h1 {
     font-size: 20px !important;
     margin-top: 15px;
@@ -320,14 +312,14 @@ h6 {
     margin: 0px 0px;
   }
   #header h1 {
-    font-size: 20px !important;
+    font-size: 23px !important;
   }
   #header.header_top h1 {
     font-size: 15px !important;
   }
   #header h2 {
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 40px;
     text-align: center;
   }
   .navbar-mobile a.nav-link {
@@ -442,7 +434,7 @@ h6 {
 
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 28px;
+  font-size: 30px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -451,7 +443,29 @@ h6 {
   right: 15px;
   top: 15px;
   z-index: 200;
+  animation: toggle 2.5s 1 linear;
+  animation-delay: 1.5s;
 }
+
+  @keyframes toggle {
+    0% {
+      box-shadow: 0 0 20px #22577a, 0 0 40px #22577a, 0 0 80px #22577a;
+    }
+    25% {
+      box-shadow: 0 0 20px #38a3a5, 0 0 40px #38a3a5, 0 0 80px #38a3a5;
+    }
+    50% {
+      transform: rotateY(360deg);
+      box-shadow: 0 0 20px #57cc99, 0 0 40px #57cc99, 0 0 80px #57cc99;
+    }
+    75% {
+      box-shadow: 0 0 20px #80ed99, 0 0 40px #80ed99, 0 0 80px #80ed99;
+      transform: scale(1.2);
+    }
+    100% {
+      box-shadow: 0 0 20px #18d26e, 0 0 40px #18d26e, 0 0 80px #18d26e;
+    }
+  }
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
@@ -523,7 +537,8 @@ section {
 .fade-leave-active {
   transition: opacity 0.3s ease;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 

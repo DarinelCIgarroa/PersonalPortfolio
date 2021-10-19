@@ -27,18 +27,13 @@
               <ul>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <strong>Fecha de nacimiento:</strong>
-                  <span>29/03/1997</span>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <strong>Web:</strong>
-                  <span>Sitio Actual</span>
+                  <strong>Nacimiento:</strong>
+                  <span>29 de Mar de 1997</span>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
                   <strong>Teléfono:</strong>
-                  <span>+52 961 236 5046</span>
+                  <span>961 236 5046</span>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong>
@@ -50,12 +45,12 @@
               <ul>
                 <li>
                   <i class="bi bi-chevron-right"></i> <strong>Edad:</strong>
-                  <span>24</span>
+                  <span>24 años</span>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
                   <strong>Licenciatura:</strong>
-                  <span>Ing. En Sistemas Computacionales</span>
+                  <span>Ing. En Sistemas Comp</span>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
