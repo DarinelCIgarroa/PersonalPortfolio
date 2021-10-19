@@ -262,7 +262,7 @@ h6 {
 
 @media screen and (max-width: 1024px) {
   #header h1 {
-    font-size: 35px;
+    font-size: 34px;
   }
 
   #header .container {
