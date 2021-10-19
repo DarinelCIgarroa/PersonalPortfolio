@@ -118,7 +118,7 @@ export default {
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #040404;
   color: #fff !important;
   position: relative;
