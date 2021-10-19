@@ -119,6 +119,7 @@ export default {
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  font-display: fallback;
   background-color: #040404;
   color: #fff !important;
   position: relative;
