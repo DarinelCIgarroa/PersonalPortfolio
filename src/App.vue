@@ -294,6 +294,10 @@ h6 {
 }
 
 @media screen and (max-width: 420px) {
+  #header .container {
+    margin: 0px 0px;
+  }
+
   #header h1 {
     font-size: 20px !important;
     margin-top: 15px;
@@ -312,15 +316,18 @@ h6 {
 }
 
 @media screen and (max-width: 360px) {
+  #header .container {
+    margin: 0px 0px;
+  }
   #header h1 {
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
   #header.header_top h1 {
     font-size: 15px !important;
   }
   #header h2 {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 35px;
     text-align: center;
   }
   .navbar-mobile a.nav-link {
