@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="download-cv">
-        <div class="btn"><a download="cv" href="../../public/cv.pdf">Descargar CV</a></div>
+        <div class="btn"><a download="Darinel Cigarroa CV" href="/cv.pdf">Descargar CV</a></div>
       </div>
     </div>
   </section>
@@ -148,7 +148,7 @@
 
 .download-cv .btn{
   position: relative;
-  width: 155px;
+  width: 145px;
   height: 50px;
   margin: 20px;
 }
@@ -170,15 +170,18 @@
   color: #fff;
   z-index: 1;
   font-weight: 400;
+  font-size: 13px;
   letter-spacing: 1px;
   text-decoration: none;
   overflow: hidden;
   transition: 0.5s;
   backdrop-filter: blur(15px);
 }
+
 .download-cv .btn:hover a{
   letter-spacing: 3px;
 }
+
 .download-cv .btn a::before{
   content: "";
   position: absolute;
@@ -190,9 +193,11 @@
   transform: skewX(45deg) translateX(0);
   transition: 0.5s;
 }
+
 .download-cv .btn:hover a::before{
   transform: skewX(45deg) translateX(200%);
 }
+
 .download-cv .btn::before{
   content: "";
   position: absolute;
@@ -206,6 +211,7 @@
   transition: 0.5s;
   transition-delay: 0s;
 }
+
 .download-cv .btn:hover::before {
   bottom: 0;
   height: 50%;
@@ -213,6 +219,7 @@
   border-radius: 30px;
   transition-delay: 0.5s;
 }
+
 .download-cv .btn::after {
   content: "";
   position: absolute;
@@ -226,6 +233,7 @@
   transition: 0.5s;
   transition-delay: 0s;
 }
+
 .download-cv .btn:hover::after {
   top: 0;
   height: 50%;
@@ -233,6 +241,7 @@
   border-radius: 30px;
   transition-delay: 0.5s;
 }
+
 .download-cv .btn::after,
 .download-cv .btn::before{
   background: #1eff45;
